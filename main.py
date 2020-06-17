@@ -1,1 +1,1 @@
-from aiohttp import webfrom routes import setup_routesapp = web.Application()setup_routes(app)web.run_app(app, host='127.0.0.1', port=8080)
+from aiohttp import webfrom routes import setup_routesimport jinja2import aiohttp_jinja2from settings import BASE_DIRprint(str(BASE_DIR / 'templates'))app = web.Application()setup_routes(app)aiohttp_jinja2.setup(app,                     loader=jinja2.FileSystemLoader(str(BASE_DIR / 'templates')))web.run_app(app, host='127.0.0.1', port=8080)
