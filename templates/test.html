@@ -1,6 +1,10 @@
-<div>
-    <h1><a href="/">Stock price</a></h1>
-</div>
+
+<html>
 <body>
-{{name}}
+<p>
+{% if result != None %}
+<img src="data:image/png;base64,{{result}}" width="500">
+{% endif %}
+</p>
 </body>
+</html>
