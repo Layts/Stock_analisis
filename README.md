@@ -1,5 +1,5 @@
-# Stock_analisis
-Aiohttp, redis stock price analisis
+# Stock_analysis
+Aiohttp, redis stock price analysis
 
 # TODO:
 
