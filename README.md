@@ -9,5 +9,7 @@ Aiohttp, redis stock price analysis
 
 3) Make prediction model
 
+4) try to use quandl
+
 Made with ❤ by me
 
