@@ -9,7 +9,7 @@ import json
 
 ticker = 'SBER'
 start_date = '2020-01-01'
-
+KEY = 'swGfAxR514UTUryipjsy'
 
 class Stocks:
 
